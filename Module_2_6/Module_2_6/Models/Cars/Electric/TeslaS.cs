@@ -14,7 +14,7 @@ namespace Module_2_6.Models.Cars.Electric
 
         public override TypeOfEngine TypeOfCar => TypeOfEngine.Electric;
 
-        public override YearOfEcoCar EcoYear => YearOfEcoCar.TeslaS2012;
+        public override string Year => "2015";
 
         public override double Consumption => 16.0;
     }

@@ -14,8 +14,6 @@ namespace Module_2_6.Models.Cars
 
         public abstract TypeOfEngine TypeOfCar { get; } 
 
-        public abstract YearOfEcoCar EcoYear { get; }
-
-        public abstract YearOfStandartCar StandartYear { get; }
+        public abstract string Year { get; }
     }
 }

@@ -14,7 +14,7 @@ namespace Module_2_6.Models.Cars.Electric
 
         public override TypeOfEngine TypeOfCar => TypeOfEngine.Electric;
 
-        public override YearOfEcoCar EcoYear => YearOfEcoCar.Chevrolet2016;
+        public override string Year => "2016";
 
         public override double Consumption => 15.0;
     }

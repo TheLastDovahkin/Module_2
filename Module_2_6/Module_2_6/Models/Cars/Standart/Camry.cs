@@ -14,7 +14,7 @@ namespace Module_2_6.Models.Cars.Standart
 
         public override TypeOfEngine TypeOfCar => TypeOfEngine.Standart;
 
-        public override YearOfStandartCar StandartYear => YearOfStandartCar.ToyotaCam2015;
+        public override string Year => "2015";
 
         public override double Consumption => 11.5;
 
