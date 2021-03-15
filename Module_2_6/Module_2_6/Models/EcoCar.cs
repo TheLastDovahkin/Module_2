@@ -7,8 +7,8 @@ namespace Module_2_6.Models
 {
     public abstract class EcoCar : EasyCar
     {
-        protected EcoCar(double price, string name, double weight, double consumption, string colour)
-            : base(price, name, weight, consumption, colour)
+        protected EcoCar(double price, string name, double weight, string colour)
+            : base(price, name, weight, colour)
         {
         }
 

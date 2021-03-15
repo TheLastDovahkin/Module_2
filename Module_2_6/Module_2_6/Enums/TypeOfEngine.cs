@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Module_2_6.Enums
 {
-    public enum TypeOfCar
+    public enum TypeOfEngine
     {
         Electric,
         Standart,

@@ -7,14 +7,16 @@ namespace Module_2_6.Models.Cars
 {
     public class Leaf : CarEngine
     {
-        public Leaf(double price, string name, double weight, double consumption, string colour)
-            : base(price, name, weight, consumption, colour)
+        public Leaf(double price, string name, double weight, string colour)
+            : base(price, name, weight, colour)
         {
         }
 
-        public override TypeOfCar TypeOfCar => TypeOfCar.Electric;
+        public override TypeOfEngine TypeOfCar => TypeOfEngine.Electric;
 
-        public override YearOfEcoCar Year => throw new NotImplementedException();
+        public override YearOfEcoCar EcoYear => YearOfEcoCar.Nissan2010;
+
+        public override double Consumption => 10.0;
 
     }
 }

@@ -7,13 +7,15 @@ namespace Module_2_6.Models.Cars
 {
     public abstract class CarEngine : EasyCar
     {
-        protected CarEngine(double price, string name, double weight, double consumption, string colour)
-            : base(price, name, weight, consumption, colour)
+        protected CarEngine(double price, string name, double weight, string colour)
+            : base(price, name, weight, colour)
         {
         }
 
-        public abstract TypeOfCar TypeOfCar { get; } 
+        public abstract TypeOfEngine TypeOfCar { get; } 
 
-        public abstract YearOfEcoCar Year { get; }
+        public abstract YearOfEcoCar EcoYear { get; }
+
+        public abstract YearOfStandartCar StandartYear { get; }
     }
 }

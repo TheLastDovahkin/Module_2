@@ -6,12 +6,11 @@ namespace Module_2_6
 {
     public class Auto
     {
-        protected Auto(double price, string name, double weight, double consumption, string colour)
+        protected Auto(double price, string name, double weight, string colour)
         {
             Price = price;
             Name = name;
             Weight = weight;
-            Consumption = consumption;
             Colour = colour;
         }
         
@@ -20,8 +19,6 @@ namespace Module_2_6
         public string Name { get; }
 
         public double Weight { get; }
-
-        public double Consumption { get; }
 
         public string Colour { get; }
 
