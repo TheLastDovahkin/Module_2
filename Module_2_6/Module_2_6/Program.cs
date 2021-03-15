@@ -1,0 +1,11 @@
+﻿namespace Module_2_6
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            var start = new Starter();
+            start.Run();
+        }
+    }
+}
